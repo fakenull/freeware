@@ -1,8 +1,23 @@
-+ FAQ
-Google GMail IMAP Login Error
-[AUTHENTICATIONFAILED] Invalid credentials (Failure)
-1. 구글 계정에서 2단계 인증설정
-2. 앱 비밀번호 설정후 생성된 패스워드 사용
+### FAQ
 
-또는 https://myaccount.google.com/lesssecureapps
-보안 수준 낮은앱 허용한후 사용하기
+## Google [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+Use an App Password: If you use 2-Step Verification, try signing in with an App Password.
+https://support.google.com/accounts/answer/185833
+Allow less secure apps: If you don't use 2-Step Verification, you might need to allow less secure apps to access your account.
+https://support.google.com/accounts/answer/6010255
+If you recently changed your Gmail password, you might need to re-enter your Gmail account information or completely repeat your Gmail account setup on your other email client.
+If the tips above didn't help, visit https://www.google.com/accounts/DisplayUnlockCaptcha and follow the steps on the page.
+The email client's sign-in method might be insecure. Try signing in directly on the Gmail app.
+Make sure your mail app isn't set to check for new email too frequently. If your mail app checks for new messages more than once every 10 minutes, the app’s access to your account could be blocked.
+---
+## Yahoo credentials error
+Generate third-party app passwords
+Some older, third-party email apps (that do not use our Yahoo branded sign in page) require you to enter a single password for login credentials. To access your Yahoo Mail account on these apps, you'll need to generate and use an app password. An app password is a long, randomly generated code that gives a non-Yahoo app permission to access your Yahoo account. You’ll only need to provide this code once to sign in to your third-party email app.
+
+https://login.yahoo.com/account/security/app-passwords/list?src=noSrc&scrumb=oXcrHIq.RaA
+Sign in and go to your Account security page.
+Click Generate app password or Manage app passwords.
+Select your app from the drop down menu and click Generate.
+Follow the instructions below the password.
+Click Done.
+Use this app password and your email address to sign in to your email app
